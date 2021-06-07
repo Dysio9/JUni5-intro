@@ -32,15 +32,16 @@ public class CalculatorTest {
     @DisplayName("Second test")
 //    @Disabled("disabling reason")
     public void testMultiplyGWT() {
-//        Given
+
+// Given
         int first = 2;
         int second = 3;
         int expected = 6;
 
-//        When
+// When
         int result = calculator.multiply(first, second);
 
-//        Then
+// Then
         assertEquals(expected, result, "Simple multiplication works");
     }
 
